@@ -248,6 +248,25 @@
 
 
 
+# def xarflar():
+#     x = input('satr yuboring: ')
+#     b = input('yana satr kiriting:')
+#     z = []
+#     for i in x:
+#         if i in b:
+#             z.append(i)
+#     print(z)
+# xarflar()
+
+' namespase - nomlar koiniti'
+
+
+def func(a, x):
+    if a > x:
+        return a
+    else:
+        return x
+
 
 
 
