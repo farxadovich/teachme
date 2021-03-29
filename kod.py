@@ -261,16 +261,21 @@
 ' namespase - nomlar koiniti'
 
 
-def func(a, x):
-    if a > x:
-        return a
-    else:
-        return x
+# def func(a, x):
+#     if a > x:
+#         return a
+#     else:
+#         return x
+def my_func(x):
+    val = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
+    symbol = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I']
+    roman = ''
+    for i in range(len(val)):
+        roman += symbol[i] * (x // val[i])
+        x = x % val[i]
 
-
-
-
-
+    return roman
+print(my_func(1))
 
 
 
