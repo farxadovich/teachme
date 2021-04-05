@@ -1,6 +1,7 @@
+
 li = [[1, 2, 3],
-      [4, 5, 6],
-      [7, 8, 9]]
+       [4, 5, 6],
+       [7, 8, 9]]
 
 for i in li:
     print(i)
@@ -57,5 +58,39 @@ while True:
         print("Iltimos \n Togri son kiriting")
 
     for i in li:
-      print(i)
+        print(i)
 
+    if li[0][0] == 'x' and li[0][1] == 'x' and li[0][2] == 'x':
+        print('X  win')
+    if li[1][0] == 'x' and li[1][1] == 'x' and li[1][2] == 'x':
+        print('X  win')
+    if li[2][0] == 'x' and li[2][1] == 'x' and li[2][2] == 'x':
+        print('X  win')
+    if li[0][0] == 'x' and li[1][0] == 'x' and li[2][0] == 'x':
+        print('X  win')
+    if li[0][1] == 'x' and li[1][1] == 'x' and li[2][1] == 'x':
+        print('X  win')
+    if li[0][2] == 'x' and li[1][2] == 'x' and li[2][2] == 'x':
+        print('X  win')
+    if li[0][0] == 'x' and li[1][1] == 'x' and li[2][2] == 'x':
+        print('X  win')
+    if li[0][2] == 'x' and li[1][1] == 'x' and li[2][0] == 'x':
+        print('X  win')
+
+
+    if li[0][0] == 'O' and li[0][1] == 'O' and li[0][2] == 'O':
+        print('O  win')
+    if li[1][0] == 'O' and li[1][1] == 'O' and li[1][2] == 'O':
+        print('O  win')
+    if li[2][0] == 'O' and li[2][1] == 'O' and li[2][2] == 'O':
+        print('O  win')
+    if li[0][0] == 'O' and li[1][0] == 'O' and li[2][0] == 'O':
+        print('O  win')
+    if li[0][1] == 'O' and li[1][1] == 'O' and li[2][1] == 'O':
+        print('O  win')
+    if li[0][2] == 'O' and li[1][2] == 'O' and li[2][2] == 'O':
+        print('O  win')
+    if li[0][0] == 'O' and li[1][1] == 'O' and li[2][2] == 'O':
+        print('O  win')
+    if li[0][2] == 'O' and li[1][1] == 'O' and li[2][0] == 'O':
+        print('O  win')
